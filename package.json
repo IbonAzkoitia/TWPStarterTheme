@@ -1,0 +1,18 @@
+{
+  "name": "twp",
+  "version": "0.0.1",
+  "main": "postcss.config.js",
+  "scripts": {
+    "watch": "TAILWIND_MODE=watch postcss assets/src/css/theme.css -o assets/css/theme.min.css -w",
+    "prod": "NODE_ENV=production TAILWIND_MODE=build postcss assets/src/css/theme.css -o assets/css/theme.min.css"
+  },
+  "keywords": [],
+  "author": "Trinchera WP",
+  "license": "ISC",
+  "description": "The WordPress + TailwindCSS Starter Theme used by the Trinchera WP platform.",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
